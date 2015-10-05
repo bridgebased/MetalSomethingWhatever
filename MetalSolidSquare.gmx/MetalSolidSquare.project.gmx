@@ -25,6 +25,7 @@
     <sprite>sprites\spr_guard</sprite>
     <sprite>sprites\spr_lastLoc</sprite>
     <sprite>sprites\spr_playerWallHug</sprite>
+    <sprite>sprites\spr_door</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -57,11 +58,13 @@
       <object>objects\col_hiding_2</object>
       <object>objects\col_hiding_3</object>
     </objects>
+    <object>objects\obj_cam</object>
+    <object>objects\obj_door</object>
+    <object>objects\obj_endLevel</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_TitleScreen</room>
-    <room>rooms\room2</room>
-    <room>rooms\rm_lvl1</room>
+    <room>rooms\rm_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -275,9 +275,10 @@ if (aiming)
     {
         heldUp = true;
     }
-    else 
-    heldUp = false;
+    
 }
+else 
+heldUp = false;
 </string>
           </argument>
         </arguments>
